@@ -10,10 +10,9 @@ import Funds from "./Funds";
 
 const Home = () => {
   useEffect(() => {
-    const token = localStorage.getItem("token");
+  
+}, []);
 
-    
-  }, []);
 
   return (
     <>

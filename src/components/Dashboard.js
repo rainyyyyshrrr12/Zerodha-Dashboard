@@ -5,15 +5,15 @@ import { GeneralContextProvider } from "./GeneralContext";
 
 const Dashboard = () => {
   return (
-    <div className="dashboard-container">
-      <GeneralContextProvider>
+    <GeneralContextProvider>
+      <div className="dashboard-container">
         <WatchList />
-      </GeneralContextProvider>
 
-      <div className="content">
-        <Summary />
+        <div className="content">
+          <Summary />
+        </div>
       </div>
-    </div>
+    </GeneralContextProvider>
   );
 };
 
