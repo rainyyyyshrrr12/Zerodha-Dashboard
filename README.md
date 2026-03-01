@@ -1,70 +1,131 @@
-# Getting Started with Create React App
+Stock Trading Platform (Zerodha Clone)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack stock trading simulation platform inspired by Zerodha, built using the MERN stack. The platform enables users to simulate stock trading with real-time market data visualization, portfolio tracking, and order management.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+🔐 Secure User Authentication
 
-### `npm start`
+JWT-based authentication
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Protected routes and session management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Encrypted password storage
 
-### `npm test`
+📊 Real-Time Market Data Visualization
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Interactive stock charts using Charting Library
 
-### `npm run build`
+Dynamic price updates
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Historical data analysis
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+💼 Portfolio & Holdings Dashboard
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+View total investment value
 
-### `npm run eject`
+Track profit/loss in real-time
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Holdings breakdown with performance metrics
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔄 Buy/Sell Order Execution
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Simulated trade execution
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Market & limit order support
 
-## Learn More
+Transaction validation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📑 Positions & Transaction Management
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Track open and closed positions
 
-### Code Splitting
+Complete transaction history
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Order status monitoring
 
-### Analyzing the Bundle Size
+🌐 RESTful API Architecture
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Modular backend structure
 
-### Making a Progressive Web App
+Clean API routing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Efficient database interaction
 
-### Advanced Configuration
+🛠️ Tech Stack
+Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+React.js
 
-### Deployment
+Axios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Charting Library (for stock visualization)
 
-### `npm run build` fails to minify
+CSS / Tailwind (if used)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Backend
+
+Node.js
+
+Express.js
+
+MongoDB
+
+REST APIs
+
+JWT Authentication
+🏗️ System Architecture
+Client (React.js)
+      ↓
+REST API (Express.js)
+      ↓
+Business Logic (Node.js)
+      ↓
+Database (MongoDB)
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/yourusername/zerodha-clone.git
+cd zerodha-clone
+2️⃣ Install Dependencies
+
+Frontend
+
+cd client
+npm install
+npm start
+
+Backend
+
+cd server
+npm install
+npm run dev
+
+📊 Key Functionalities
+
+Real-time stock price updates
+
+Portfolio valuation engine
+
+Order placement & validation logic
+
+REST API integration between frontend and backend
+
+🔐 Security Implementations
+
+Password hashing using bcrypt
+
+JWT-based authorization
+
+Input validation & sanitization
+
+Protected API routes
+
+📌 Future Enhancements
+
+WebSocket integration for live trading updates
+
+Admin dashboard for stock management
+
+Advanced analytics (moving averages, RSI, etc.)
+
+Deployment on Render
