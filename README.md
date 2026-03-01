@@ -74,6 +74,8 @@ MongoDB
 REST APIs
 
 JWT Authentication
+
+
 🏗️ System Architecture
 Client (React.js)
       ↓
@@ -82,6 +84,8 @@ REST API (Express.js)
 Business Logic (Node.js)
       ↓
 Database (MongoDB)
+
+
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/zerodha-clone.git
